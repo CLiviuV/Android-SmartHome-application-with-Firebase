@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorPressedHighlight"
+    tools:context=".LogareActivity">
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_name_user"
+        android:ems="10"
+        android:hint="Nume Utilizator"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="301dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginRight="66dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_name_password"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="246dp"
+        app:srcCompat="@drawable/logonou5" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:background="@android:color/holo_green_light"
+        android:text="LOGIN"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="188dp"
+        android:layout_marginRight="188dp"
+        android:layout_marginBottom="43dp"
+        android:text="NU ESTI INREGISTRAT?"
+        android:textColor="#ffffff"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textview_register"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="45dp"
+        android:paddingLeft="10dp"
+        android:text="INREGISTRARE"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#33691E">
+
+    <ToggleButton
+        android:id="@+id/toggleButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="238dp"
+        android:layout_marginBottom="7dp"
+        android:text="ToggleButton"
+        android:background="@drawable/edit_round"
+        android:textAlignment="center"
+        android:textColor="#F57F17"
+        android:textStyle="bold"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="7dp"
+        android:text="ToggleButton"
+        android:background="@drawable/edit_round"
+        android:textAlignment="center"
+        android:textColor="#F57F17"
+        android:textStyle="bold"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginBottom="300dp"
+        android:text="ToggleButton"
+        android:background="@drawable/edit_round"
+        android:textAlignment="center"
+        android:textColor="#F57F17"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="127dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/lamp_bec_img" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="127dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="348dp"
+        app:srcCompat="@drawable/lamp_bec_img" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="127dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/lamp_bec_img" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="300dp"
+        android:text="ToggleButton"
+        android:background="@drawable/edit_round"
+        android:textAlignment="center"
+        android:textColor="#F57F17"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="127dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="54dp"
+        app:srcCompat="@drawable/lamp_bec_img" />
+</RelativeLayout>

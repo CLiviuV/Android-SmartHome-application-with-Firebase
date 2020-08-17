@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_temperatura"
+            android:icon="@drawable/ic_temperatura_24dp"
+            android:title="Temperatura"/>
+        <item android:id="@+id/nav_iluminat"
+            android:icon="@drawable/ic_iluminat_24dp"
+            android:title="Iluminat"/>
+        <item android:id="@+id/nav_alarma"
+            android:icon="@drawable/ic_alarma_run_black_24dp"
+            android:title="Senzor PIR"/>
+        <item android:id="@+id/nav_gaz"
+            android:icon="@drawable/ic_gaz_24dp"
+            android:title="Senzor GAZ"/>
+        <item android:id="@+id/nav_apa"
+            android:icon="@drawable/ic_apa_24dp"
+            android:title="Senzor APA"/>
+        <item android:id="@+id/nav_alarma_dez"
+            android:icon="@drawable/ic_volume_off_black_24dp"
+            android:title="Alarma"/>
+        <item android:id="@+id/nav_door_car"
+            android:icon="@drawable/ic_car_door_24dp"
+            android:title="Poarta"/>
+
+    </group>
+    <menu />
+    <group />
+
+
+</menu>

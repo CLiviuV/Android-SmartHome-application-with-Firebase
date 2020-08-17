@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFD740">
+
+    <ToggleButton
+        android:id="@+id/toggleButton8"
+        android:layout_width="329dp"
+        android:layout_height="201dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/edit_round"
+        android:text="ToggleButton"
+        android:textAlignment="center"
+        android:textColor="#F57F17"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="272dp"
+        android:layout_height="272dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        app:srcCompat="@drawable/alert" />
+</RelativeLayout>
